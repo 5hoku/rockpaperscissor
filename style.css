@@ -1,0 +1,54 @@
+body {
+    /* height: 100vw;
+    width: 100vw; */
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 400px;
+    margin-left: 250px;
+    margin-right: 250px;
+    border: solid 5px;
+    border-radius: 10px;
+}
+
+#score {
+    display: flex;
+    padding: 10px;
+}
+
+#choice {
+     display: flex; 
+     flex-wrap: wrap;
+}
+
+#playerscore,
+#computerscore,
+#computerchoice,
+#playerchoice,
+#results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+
+#buttons {
+    padding: 10px;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+}
+
+#round {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    padding: 5px;
+    margin: 10px;
+}

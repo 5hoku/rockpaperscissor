@@ -4,9 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="myScript.js"></script>
+    <link rel="stylesheet" href="style.css">
+   
 </head>
 <body>
+<div id="container">
+    <div id="rounds">
+        <p class="header"><strong>Round</strong></p>
+        <p id="round">0</p>
+        </div>
+    <div id="results">
+        <p class="header"><strong>Result</strong></p>
+        <p id="result">Who shall be victorious today ?</p>    
+        </div>
 
+    <div id="score">
+    <div id="computerscore">
+    <p><strong>Computer Score</strong></p>
+    <p id="cpuscore">0</p>
+    </div>
+    <div id="playerscore">
+    <p><strong>Player Score</strong></p>
+    <p id="pcscore">0</p>    
+    </div>
+    </div>
+    <div id="choice">
+    <div id="computerchoice">
+        <p><strong>Computer Choice</strong></p>
+        <p id="cpu"></p>
+        </div>
+        <div id="playerchoice">
+        <p><strong>Player Choice</strong></p>
+        <p id="pc"></p>
+    </div>
+    </div>
+    <div id="buttons">
+        <button class="btn" id="Rock" value="Rock">Rock</button>
+        <button class="btn" id="Paper" value="Paper">Paper</button>
+        <button class="btn" id="Scissors" value="Scissors">Scissors</button>
+    </div>
+</div>
+    <script src="myScript.js"></script>
 </body>
 </html>
