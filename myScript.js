@@ -1,3 +1,4 @@
+// Button
 const allButtons = document.querySelectorAll(".btn")
 let playerChoice = "";
 
